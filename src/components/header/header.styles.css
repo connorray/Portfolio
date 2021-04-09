@@ -1,0 +1,309 @@
+/* Globals */
+
+hr {
+  border-style: dotted;
+  border-top: 0;
+  border-width: thick;
+  color: #456268;
+  width: 3%;
+}
+
+/* Welcome banner */
+
+.preloading-banner-wrapper {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  --antd-wave-shadow-color: #1890ff;
+  /* color: rgba(0, 0, 0, .65); */
+  color: #456268;
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5;
+  font-feature-settings: "tnum", "tnum";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  display: block;
+  /* background: rgba(136, 169, 207, .65); */
+  background: #fcf8ec;
+  position: relative;
+  min-height: 500px;
+  height: 80vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.banner-title-wrapper {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  --antd-wave-shadow-color: #1890ff;
+  /* color: rgba(0, 0, 0, .65); */
+  color: #456268;
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5;
+  font-feature-settings: "tnum", "tnum";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  position: relative;
+  top: 30vh;
+  text-align: center;
+}
+
+.welcome-title {
+  color: #456268;
+  font-variant: tabular-nums;
+  line-height: 1.5;
+  font-feature-settings: "tnum", "tnum";
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+  box-sizing: border-box;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  font-size: 5em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  position: relative;
+  z-index: 1;
+}
+
+.banner-buttons {
+  text-align: center;
+  align-content: center;
+}
+
+.banner-button:hover {
+  color: #f4f4f2;
+  background-color: #bbbfca;
+  border: 1px solid transparent;
+}
+
+.sphere1 {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  --antd-wave-shadow-color: #1890ff;
+  /* color: rgba(0, 0, 0, .65); */
+  color: #456268;
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5;
+  font-feature-settings: "tnum", "tnum";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  height: 350px;
+  width: 350px;
+  /* background: linear-gradient(#668cb8, #dcedff); */
+  background: linear-gradient(#d0e8f2, #ffffff);
+  border-radius: 210px;
+  position: absolute;
+  transform: rotate(26deg);
+  left: 22vw;
+  top: 8vh;
+}
+
+.sphere2 {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  --antd-wave-shadow-color: #1890ff;
+  /* color: rgba(0, 0, 0, .65); */
+  color: #456268;
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5;
+  font-feature-settings: "tnum", "tnum";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  height: 350px;
+  width: 350px;
+  /* background: linear-gradient(#668cb8, #dcedff); */
+  background: linear-gradient(#d0e8f2, #ffffff);
+  border-radius: 210px;
+  position: absolute;
+  left: -5vw;
+  top: -10vh;
+}
+
+.sphere3 {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  --antd-wave-shadow-color: #1890ff;
+  /* color: rgba(0, 0, 0, .65); */
+  color: #456268;
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5;
+  font-feature-settings: "tnum", "tnum";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  height: 350px;
+  width: 350px;
+  /* background: linear-gradient(#668cb8, #dcedff); */
+  background: linear-gradient(#d0e8f2, #ffffff);
+  border-radius: 210px;
+  position: absolute;
+  transform: rotate(286deg);
+  left: 80vw;
+  top: -5vh;
+}
+
+.sphere4 {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  --antd-wave-shadow-color: #1890ff;
+  /* color: rgba(0, 0, 0, .65); */
+  color: #456268;
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5;
+  font-feature-settings: "tnum", "tnum";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  height: 350px;
+  width: 350px;
+  /* background: linear-gradient(#668cb8, #dcedff); */
+  background: linear-gradient(#d0e8f2, #ffffff);
+  border-radius: 210px;
+  position: absolute;
+  transform: rotate(212deg);
+  left: 65vw;
+  top: 40vh;
+}
+
+.sphere5 {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  --antd-wave-shadow-color: #1890ff;
+  /* color: rgba(0, 0, 0, .65); */
+  color: #456268;
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5;
+  font-feature-settings: "tnum", "tnum";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  height: 350px;
+  width: 350px;
+  /* background: linear-gradient(#668cb8, #dcedff); */
+  background: linear-gradient(#d0e8f2, #ffffff);
+  border-radius: 210px;
+  position: absolute;
+  transform: rotate(13deg);
+  left: 5vw;
+  top: 50vh;
+}
+
+/* Overview section */
+
+.section-title-wrapper {
+  color: #456268;
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5;
+  font-feature-settings: "tnum", "tnum";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  text-align: center;
+  margin-top: 5vh;
+  margin-bottom: 50px;
+}
+
+.section-title {
+  color: #456268;
+  font-variant: tabular-nums;
+  line-height: 1.5;
+  font-feature-settings: "tnum", "tnum";
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+  box-sizing: border-box;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  font-size: 3em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  position: relative;
+  z-index: 1;
+}
+
+.ant-col {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  --antd-wave-shadow-color: #1890ff;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5;
+  font-feature-settings: "tnum", "tnum";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  min-height: 1px;
+  position: relative;
+  padding-right: 0;
+  padding-left: 0;
+  flex: 0 0 auto;
+  /* float: left; */
+  display: block;
+  box-sizing: border-box;
+  width: 50%;
+  /* margin-left: 25%; */
+  order: 2;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profile-image {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  --antd-wave-shadow-color: #1890ff;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5;
+  font-feature-settings: "tnum", "tnum";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  vertical-align: middle;
+  border-style: none;
+  width: 60%;
+  /* border-radius: 3px; */
+  margin-bottom: 20px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-body {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  --antd-wave-shadow-color: #1890ff;
+  font-variant: tabular-nums;
+  line-height: 1.5;
+  font-feature-settings: "tnum", "tnum";
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  margin-top: 0;
+  font-size: 1.25em;
+  color: #4a4a4a;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
