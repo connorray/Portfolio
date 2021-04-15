@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import "./header.styles.css";
+import { Download } from "./resume.component";
+
 // TODO: link the buttons
 export const Header = () => {
+  const [emailCopyText, setEmailCopyText] = useState("Copy Email");
   return (
     <div>
       <meta charSet="utf-8" />
@@ -43,22 +46,34 @@ export const Header = () => {
         <div className="banner-title-wrapper">
           <h1 className="welcome-title">Hi there!</h1>
           <div className="banner-buttons">
-            <a className="banner-button btn btn-outline-dark">Resume</a>
+            {/* Opens the pdf file in a new tab on click */}
+            <Download />
             <a
               className="banner-button btn btn-outline-dark"
               style={{ marginLeft: "10px" }}
+              onClick={() => {
+                navigator.clipboard.writeText("officialraymondyoo@gmail.com");
+                setEmailCopyText("Email Copied!");
+                setTimeout(() => {
+                  setEmailCopyText("Copy Email");
+                }, 2000);
+              }}
             >
-              Contact
+              {emailCopyText}
             </a>
             <a
               className="banner-button btn btn-outline-dark"
               style={{ marginLeft: "10px" }}
+              href="https:raymondyoo.com/blog"
+              target="_blank"
             >
               Blog
             </a>
             <a
               className="banner-button btn btn-outline-dark"
               style={{ marginLeft: "10px" }}
+              href="https:raymondyoo.com"
+              target="_blank"
             >
               About Me
             </a>
