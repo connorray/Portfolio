@@ -5,10 +5,6 @@ import { Fade } from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function ListOfExperiences() {
-  function openProjectInNewWindow(url) {
-    var win = window.open(url, "_blank");
-    win.focus();
-  }
   const { isDark } = useContext(StyleContext);
   if (!experiencesList.display) {
     return null;
