@@ -77,18 +77,6 @@ export const Header = () => {
             >
               About Me
             </a>
-            <a
-              className="banner-button btn btn-outline-dark"
-              style={{ marginLeft: "10px" }}
-            >
-              Experience
-            </a>
-            <a
-              className="banner-button btn btn-outline-dark"
-              style={{ marginLeft: "10px" }}
-            >
-              Achievements
-            </a>
           </div>
         </div>
       </section>

@@ -1,0 +1,18 @@
+.footer-text {
+  text-align: center;
+  color: #868e96 !important;
+}
+
+.dark-mode {
+  color: black !important;
+}
+
+.footer-div {
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.line-version-2 {
+  color: #456268;
+  width: 70%;
+}
