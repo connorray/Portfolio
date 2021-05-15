@@ -61,7 +61,7 @@ export const Header = () => {
             >
               {emailCopyText}
             </a>
-            <a
+            {/* <a
               className="banner-button btn btn-outline-dark"
               style={{ marginLeft: "10px" }}
               href="https:raymondyoo.com/blog"
@@ -76,7 +76,7 @@ export const Header = () => {
               target="_blank"
             >
               About Me
-            </a>
+            </a> */}
           </div>
         </div>
       </section>
