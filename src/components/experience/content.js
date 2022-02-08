@@ -2,8 +2,12 @@ const experiencesList = {
   title: "Some things I've done professionally",
   experiences: [
     {
-      experienceName: "Upcoming: Amazon SDE I Intern",
-      experienceDesc: "Incoming SDE intern at Amazon NYC this summer (2021).",
+      experienceName: "Amazon SDE I",
+      experienceDesc: "Joining the advertising team in Amazon NYC full time starting March 2022.",
+    },
+    {
+      experienceName: "Amazon SDE I Intern",
+      experienceDesc: "SDE intern at Amazon NYC summer 2021. Advertisting team. Fullstack. Mostly backend stuff though.",
     },
 
     {
