@@ -6,6 +6,7 @@ import pathfinderreact from "../../assets/images/pathfinderreact.png"; // with i
 import robinhoodtrader from "../../assets/images/robinhoodtrader.png"; // with import
 import popsan from "../../assets/images/popsan.png"; // with import
 import robothead from "../../assets/images/robothead.png"; // with import
+import snneeg from "../../assets/images/snn-eeg.png"; // with import
 
 const bigProjects = {
   title: "Some Projects I've Worked On",
@@ -100,6 +101,20 @@ const bigProjects = {
         {
           name: "Read the Publication Here",
           url: "https://arxiv.org/abs/2010.09635",
+        },
+        //  you can add extra buttons here.
+      ],
+    },
+    {
+      image: snneeg,
+      projectName:
+        "TMLR22: Deep Reinforcement Learning with Population-Coded Spiking Neural Network for Continuous Control",
+      projectDesc:
+        "Accepted publication to TMLR22 about decoding EEG using spiking neural networks (SNNs) on neuromorphic hardware. I mostly trained existing sota DNN methods for decoding EEG data as baselines to compare our SNN method with. Implemented and trained the following models: 3D-CNN, 2D-CNN, CNN-TC, and CNN-LSTM.",
+      footerLink: [
+        {
+          name: "Read the Publication Here",
+          url: "https://openreview.net/pdf?id=ZPBJPGX3Bz",
         },
         //  you can add extra buttons here.
       ],

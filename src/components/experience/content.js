@@ -3,7 +3,7 @@ const experiencesList = {
   experiences: [
     {
       experienceName: "Amazon SDE I",
-      experienceDesc: "Joining the advertising team in Amazon NYC full time starting March 2022.",
+      experienceDesc: "Advertising team in Amazon NYC full time. Started March 2022. Fullstack developer working with ReactJs, Java, Redshift, DynamoDB, EMR jobs, a few data pipelines, etc.",
     },
     {
       experienceName: "Amazon SDE I Intern",
