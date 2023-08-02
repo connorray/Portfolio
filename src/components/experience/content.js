@@ -2,12 +2,14 @@ const experiencesList = {
   title: "Some things I've done professionally",
   experiences: [
     {
-      experienceName: "Amazon SDE I",
-      experienceDesc: "Advertising team in Amazon NYC full time. Started March 2022. Fullstack developer working with ReactJs, Java, Redshift, DynamoDB, EMR jobs, a few data pipelines, etc.",
+      experienceName: "Amazon Software Engineer (current)",
+      experienceDesc:
+        "Started March 2022 in the Advertising team and now reorged to the Measurement, Analytics, and Data Science team. Fullstack developer working with ReactJs for UI and Java server side helping account managers within Amazon streamline their campaign creations for big advertisers. Also working on productionizing machine learning recommendation systems, building infrastructure using things like AWS Lambda, CDK with typescript, API Gateway, Redshift, S3, etc. Worked on a few big data jobs with DynamoDB, Elastic Map Reduce, Scala, etc.",
     },
     {
-      experienceName: "Amazon SDE I Intern",
-      experienceDesc: "SDE intern at Amazon NYC summer 2021. Advertisting team. Fullstack. Mostly backend stuff though.",
+      experienceName: "Amazon Software Engineer Intern (July 2021-Sep 2021)",
+      experienceDesc:
+        "Amazon NYC summer 2021. Advertisting team. Fullstack work using Java for server side and React for frontend. Built a trailing quarters feature in an internal tool used by account managers to help them create audience plans for their advertiser clients. Also worked on big data jobs using Scala, AWS Redshift, ECS, S3, etc. in order to support new data from the UI.",
     },
 
     {
