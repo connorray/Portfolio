@@ -8,6 +8,8 @@ import popsan from "../../assets/images/popsan.png"; // with import
 import robothead from "../../assets/images/robothead.png"; // with import
 import snneeg from "../../assets/images/snn-eeg.png"; // with import
 import amazonads from "../../assets/images/amazonads.png"; // with import
+import pocketgolfai from "../../assets/images/pocketgolf.png"; // with import
+import guitartabs from "../../assets/images/guitartabs.png"; // with import
 
 const bigProjects = {
   title: "Some Projects I've Worked On",
@@ -48,6 +50,32 @@ const bigProjects = {
         {
           name: "No source code obviously sorry hehe",
           url: "https://www.youtube.com/watch?v=iaxGjGFwE8M",
+        },
+        //  you can add extra buttons here.
+      ],
+    },
+    {
+      image: pocketgolfai,
+      projectName: "Pocket Golf Coach AI",
+      projectDesc:
+        "Used GPT Vision API to create an iOS app that gives you concrete feedback on your golf swing.",
+      footerLink: [
+        {
+          name: "No Source Code Cuz I want to make money off this",
+          url: "https://github.com/connorray/",
+        },
+        //  you can add extra buttons here.
+      ],
+    },
+    {
+      image: guitartabs,
+      projectName: "Guitar Tab Generator",
+      projectDesc:
+        "Made an electron app that takes audio input and maps the audio to a guitar tab. Was part of my buildspace season 4 application.",
+      footerLink: [
+        {
+          name: "No Source Code Cuz I want to make money off this",
+          url: "https://github.com/connorray/",
         },
         //  you can add extra buttons here.
       ],
