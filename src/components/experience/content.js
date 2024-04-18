@@ -2,9 +2,14 @@ const experiencesList = {
   title: "Some things I've done professionally",
   experiences: [
     {
-      experienceName: "Amazon Software Engineer (current)",
+      experienceName: "Amazon Software Engineer II (current)",
       experienceDesc:
-        "Started March 2022 in the Advertising team and now reorged to the Measurement, Analytics, and Data Science team. Fullstack developer working with ReactJs for UI and Java server side helping account managers within Amazon streamline their campaign creations for big advertisers. Also working on productionizing machine learning recommendation systems, building infrastructure using things like AWS Lambda, CDK with typescript, API Gateway, Redshift, S3, etc. Worked on a few big data jobs with DynamoDB, Elastic Map Reduce, Scala, etc.",
+        "I am now a SDE 2 in the Measurement, Analytics, and Data Science team still within Amazon Advertising. The team requires a chameleon that can debug big data pipelines running spark on EMR one day and create nice looking UIs for internal account managers another day. For this reason, and yes I know it's a running joke in the industry now but, I am a fullstack developer working with a wide range of tech from ReactJs, Java + Spring, big data pipelines mostly running spark SQL on EMR with an internal orchestration service, and a bunch of AWS services like Sagemaker, Spark, EMR, Lambda, Athena, Redshift, DynamoDB, API Gateway, and whatever else the team needs. So far I helped the Twitch ADSP team deliver on a senior VP goal by inventing a simple solution for injecting microfrontends (MFEs) using react-helmet and using custom event listeners to pass data. This was crucial in helping dependent teams deliver for the goal tied to deprecating certain twitch widgets running in managed service advertising consoles in Amazon. I also work on productionizing machine learning recommendation system ETLs, building infrastructure using a bunch of the AWS tech I mentioned earlier. The industry calls this ML Ops I guess.",
+    },
+    {
+      experienceName: "Amazon Software Engineer I (March 2022-Dec 2023)",
+      experienceDesc:
+        "Started March 2022. Fullstack developer working with ReactJs for UI and Java server side helping account managers within Amazon streamline their campaign creations for big advertisers. Worked on a big project tied to a senior VP goal within the org for delivering a ML service that serves budget recommendations for products running ads within managed service campaigns in Amazon advertising.",
     },
     {
       experienceName: "Amazon Software Engineer Intern (July 2021-Sep 2021)",

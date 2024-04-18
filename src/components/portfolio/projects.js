@@ -7,11 +7,51 @@ import robinhoodtrader from "../../assets/images/robinhoodtrader.png"; // with i
 import popsan from "../../assets/images/popsan.png"; // with import
 import robothead from "../../assets/images/robothead.png"; // with import
 import snneeg from "../../assets/images/snn-eeg.png"; // with import
+import amazonads from "../../assets/images/amazonads.png"; // with import
 
 const bigProjects = {
   title: "Some Projects I've Worked On",
   subtitle: "Constantly being updated as I work on more things 😊",
   projects: [
+    {
+      image: amazonads,
+      projectName: "Media Planning Tool",
+      projectDesc:
+        "This was my first baby while working in Amazon and I love this service so much. I worked on EVERYTHING related to this service which basically serves the purpose of streamlining advertising campaign creations for managed service and also gives recommendations for certain inputs such as budgets for product catalogs and audience targeting segments. I even did a full NAWS migration (moving from internal infrastructure that was dated to the AWS that outsiders use) for the backend of this service which was a major case in my promotion to SDE 2 as we have nearly 100 APIs and I had to manually change every API. I had to create a new AWS ECS service for this migration and even led a design for it which was my first one!",
+      footerLink: [
+        {
+          name: "No source code obviously sorry hehe",
+          url: "https://www.youtube.com/watch?v=iaxGjGFwE8M",
+        },
+        //  you can add extra buttons here.
+      ],
+    },
+    {
+      image: amazonads,
+      projectName: "Line Item Budget Recommendations for Amazon Self Service",
+      projectDesc:
+        "This was tied to a senior VP goal within my organization. I created a vanilla AWS sagemaker solution that allowed us to get rid of a lot of operational overhead since existing sagemaker wrapper services within Amazon brought in a lot of unnecessary infrastructure in CDK. I worked closely with another team and did away team work in their code base to deliver this goal ASAP. We successfully delivered the goal on time and today we are serving 100% ML recommendations for initial budget allocations for products in Amazon self service that go through an internal tool called HIBOU which optimizes budgets overtime as a campaign is live.",
+      footerLink: [
+        {
+          name: "No source code obviously sorry hehe",
+          url: "https://www.youtube.com/watch?v=iaxGjGFwE8M",
+        },
+        //  you can add extra buttons here.
+      ],
+    },
+    {
+      image: amazonads,
+      projectName: "Twitch Contextual Targeting Widget for Managed Service",
+      projectDesc:
+        "This was tied to a senior VP goal within the Twitch organization. I invented a simple solution for injecting microfrontends (MFEs) using react-helmet and using custom event listeners to pass data. This was crucial in helping dependent teams deliver for the goal tied to deprecating certain twitch widgets running in managed service advertising consoles in Amazon. Another internal team called OMS was able to use my solution in order to save time and deliver the goal on time.",
+      footerLink: [
+        {
+          name: "No source code obviously sorry hehe",
+          url: "https://www.youtube.com/watch?v=iaxGjGFwE8M",
+        },
+        //  you can add extra buttons here.
+      ],
+    },
     {
       image: nncolorizer,
       projectName: "Neural Network Colorizer",
