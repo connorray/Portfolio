@@ -22,7 +22,7 @@ export const AE = () => {
 
   return (
     <div>
-      <h1 className="welcome-title">Achievements/Education</h1>
+      <h1 className="welcome-title">Education</h1>
       <StyleProvider
         value={{ isDark: { isDark }, changeTheme: { changeTheme } }}
       >

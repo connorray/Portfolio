@@ -6,25 +6,28 @@ export const Portfolio = () => {
   const [isDark, setIsDark] = useState(false);
 
   useEffect(() => {
-    if (localStorage.getItem("isDark") === null) {
+    const storedTheme = localStorage.getItem("isDark");
+    if (storedTheme === null) {
       const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
+      setIsDark(darkPref.matches);
       localStorage.setItem("isDark", darkPref.matches);
+    } else {
+      setIsDark(JSON.parse(storedTheme));
     }
-    setIsDark({ isDark: JSON.parse(localStorage.getItem("isDark")) });
   }, []);
 
   const changeTheme = () => {
-    this.setState({ isDark: !this.state.isDark }, () => {
-      localStorage.setItem("isDark", this.state.isDark);
+    setIsDark((prevIsDark) => {
+      const newIsDark = !prevIsDark;
+      localStorage.setItem("isDark", JSON.stringify(newIsDark));
+      return newIsDark;
     });
   };
 
   return (
-    <div>
+    <div className="portfolio-container">
       <h1 className="welcome-title">Portfolio</h1>
-      <StyleProvider
-        value={{ isDark: { isDark }, changeTheme: { changeTheme } }}
-      >
+      <StyleProvider value={{ isDark, changeTheme }}>
         <StartupProject />
       </StyleProvider>
     </div>

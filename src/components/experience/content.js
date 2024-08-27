@@ -2,9 +2,14 @@ const experiencesList = {
   title: "Some things I've done professionally",
   experiences: [
     {
-      experienceName: "Amazon Software Engineer II (current)",
+      experienceName: "Amazon Machine Learning Engineer (current)",
       experienceDesc:
-        "I am now a SDE 2 in the Measurement, Analytics, and Data Science team still within Amazon Advertising. The team requires a chameleon that can debug big data pipelines running spark on EMR one day and create nice looking UIs for internal account managers another day. For this reason, and yes I know it's a running joke in the industry now but, I am a fullstack developer working with a wide range of tech from ReactJs, Java + Spring, big data pipelines mostly running spark SQL on EMR with an internal orchestration service, and a bunch of AWS services like Sagemaker, Spark, EMR, Lambda, Athena, Redshift, DynamoDB, API Gateway, and whatever else the team needs. So far I helped the Twitch ADSP team deliver on a senior VP goal by inventing a simple solution for injecting microfrontends (MFEs) using react-helmet and using custom event listeners to pass data. This was crucial in helping dependent teams deliver for the goal tied to deprecating certain twitch widgets running in managed service advertising consoles in Amazon. I also work on productionizing machine learning recommendation system ETLs, building infrastructure using a bunch of the AWS tech I mentioned earlier. The industry calls this ML Ops I guess.",
+        "Driving innovation on the Sponsored Products team, where I spearhead the vector search for embedding spaces across all Amazon ads. My work ensures that the most relevant ads are delivered to millions of customers, enhancing their shopping experience with precise sponsored product recommendations. Leveraging technologies like EMR, Step Functions, Spark, Sagemaker, and vector databases, I specialize in productionizing ML models and optimizing big data pipelines to power Amazon’s next-gen ad tech.",
+    },
+    {
+      experienceName: "Amazon Software Engineer II (Dec 2023-June 2024)",
+      experienceDesc:
+        "Part of the Measurement, Analytics, and Data Science team, where I tackled both backend and frontend challenges. My work ranged from debugging big data pipelines with Spark on EMR to building UIs for internal account managers. I utilized a broad tech stack, including ReactJS, Java + Spring, Spark SQL, and various AWS services (Sagemaker, EMR, Lambda, Athena, Redshift, DynamoDB, API Gateway). A key project involved creating a solution using react-helmet and custom event listeners for injecting microfrontends, aiding in the deprecation of Twitch widgets. Additionally, I worked on productionizing ML recommendation systems and building infrastructure, focusing on ML Ops.",
     },
     {
       experienceName: "Amazon Software Engineer I (March 2022-Dec 2023)",

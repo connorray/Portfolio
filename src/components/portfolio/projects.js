@@ -10,6 +10,7 @@ import snneeg from "../../assets/images/snn-eeg.png"; // with import
 import amazonads from "../../assets/images/amazonads.png"; // with import
 import pocketgolfai from "../../assets/images/pocketgolf.png"; // with import
 import guitartabs from "../../assets/images/guitartabs.png"; // with import
+import dontthinkfinance from "../../assets/images/dontthinkfinance.png";
 
 const bigProjects = {
   title: "Some Projects I've Worked On",
@@ -52,6 +53,18 @@ const bigProjects = {
           url: "https://www.youtube.com/watch?v=iaxGjGFwE8M",
         },
         //  you can add extra buttons here.
+      ],
+    },
+    {
+      image: dontthinkfinance,
+      projectName: "Don't Think Finance dot com",
+      projectDesc:
+        "A simple financial tool for gen alpha and gen z. Brain rotted? No problem, just choose your life style archetype and don't think.",
+      footerLink: [
+        {
+          name: "Check out the site here",
+          url: "https://dontthinkfinance.com",
+        },
       ],
     },
     {

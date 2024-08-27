@@ -1,6 +1,6 @@
 import React from "react";
 import Pdf from "./RaymondYoo.pdf";
-import UpdatedPDF from "./RaymondYooApr2024.pdf";
+import UpdatedPDF from "./RaymondYooAug2024.pdf";
 
 export const Download = () => {
   return (
